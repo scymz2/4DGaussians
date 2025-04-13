@@ -47,6 +47,7 @@ git submodule update --init --recursive
 conda create -n Gaussians4D python=3.7 
 conda activate Gaussians4D
 
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --index-url https://download.pytorch.org/whl/cu116
 pip install -r requirements.txt
 pip install -e submodules/depth-diff-gaussian-rasterization
 pip install -e submodules/simple-knn
