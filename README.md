@@ -216,6 +216,12 @@ python metrics.py --model_path "output/dnerf/bouncingballs/"
 
 
 ## Viewer
+
+```
+python train.py -s data/hypernerf/virg/virg-3dprinter --port 6017 --expname "hypernerf/3dprinter" --configs arguments/hypernerf/3dprinter.py 
+./viewers/bin/SIBR_remoteGaussian_app.exe --port 6017 --path data/dnerf/lego
+```
+
 [Watch me](./docs/viewer_usage.md)
 ## Scripts
 
